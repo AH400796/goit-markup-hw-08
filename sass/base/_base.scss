@@ -1,0 +1,35 @@
+body {
+  font-family: $font-text-general;
+  font-style: normal;
+
+  background-color: $color-white-txt-bg;
+  color: $color-text-primary;
+
+  &.modal-open {
+    overflow: hidden;
+  }
+
+  @media screen and (max-width: 767.98px) {
+    &.mobmmenu-open {
+      overflow: hidden;
+    }
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.stiky-footer {
+  flex-shrink: 0;
+}

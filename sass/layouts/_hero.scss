@@ -1,0 +1,79 @@
+.hero {
+  text-align: center;
+
+  background-color: $color-background-footer;
+}
+
+.hero__overlay {
+  max-width: 768px;
+  height: 400px;
+  padding-top: 118px;
+  padding-right: 0;
+  padding-bottom: 118px;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+
+  background-image: linear-gradient(to right, $color-hero-overlay, $color-hero-overlay), url('../images/hero/hero-mobile.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: linear-gradient(to right, $color-hero-overlay, $color-hero-overlay), url('../images/hero/hero-mobile@2x.jpg');
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 1200px;
+
+    background-image: linear-gradient(to right, $color-hero-overlay, $color-hero-overlay), url('../images/hero/hero-tablet.jpg');
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: linear-gradient(to right, $color-hero-overlay, $color-hero-overlay), url('../images/hero/hero-tablet@2x.jpg');
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1600px;
+    height: 600px;
+    padding-top: 200px;
+    padding-right: 0;
+    padding-bottom: 200px;
+    padding-left: 0;
+
+    background-image: linear-gradient(to right, $color-hero-overlay, $color-hero-overlay), url('../images/hero/hero-desktop.jpg');
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: linear-gradient(to right, $color-hero-overlay, $color-hero-overlay), url('../images/hero/hero-desktop@2x.jpg');
+    }
+  }
+}
+
+.hero__content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 360px;
+
+  @media screen and (min-width: 1200px) {
+    max-width: 696px;
+  }
+}
+
+.hero__title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+
+  font-weight: 900;
+  font-size: 24px;
+  line-height: calc(42 / 24);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: $color-white-txt-bg;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 44px;
+    line-height: calc(60 / 44);
+  }
+}

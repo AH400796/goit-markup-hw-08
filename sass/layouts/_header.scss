@@ -1,0 +1,13 @@
+.header {
+  position: relative;
+
+  border-bottom: 1px solid $color-header-border;
+}
+
+.header__container {
+  display: flex;
+}
+
+.header__container.mobmmenu-open {
+  width: 100vw;
+}

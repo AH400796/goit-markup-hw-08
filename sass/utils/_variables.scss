@@ -1,0 +1,41 @@
+//     Fonts
+
+$font-text-general: 'Roboto', sans-serif;
+$font-logo: 'Raleway', sans-serif;
+
+//     Colors
+
+$color-text-primary: #757575;
+$color-text-secondary: #212121;
+$color-accent: #2196f3;
+$color-btn-accent: #188ce8;
+$color-portfolio-overlay: rgba(33, 150, 243, 0.9);
+$color-clients-logo: #afb1b8;
+$color-logo-dark: #000000;
+$color-shade-of-black: rgba(0, 0, 0, 0.1);
+$color-backdrop-bg: rgba(0, 0, 0, 0.2);
+$color-hero-overlay: rgba(47, 48, 58, 0.4);
+$color-employment-overlay: rgba(47, 48, 58, 0.8);
+$color-callback-input-border: rgba(33, 33, 33, 0.2);
+$color-background-footer: #2f303a;
+$color-white-txt-bg: #ffffff;
+$color-shade-of-white3: rgba(255, 255, 255, 0.1);
+$color-shade-of-white: rgba(255, 255, 255, 0.3);
+$color-shade-of-white2: rgba(255, 255, 255, 0.6);
+$color-background-secondary: #f5f4fa;
+$color-potrfolio-border: #eeeeee;
+$color-header-border: #ececec;
+
+//     Shadows
+
+$shadow-button: rgba(0, 0, 0, 0.15);
+$shadow-team-card: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+$shadow-filter-btn-active: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+$shadow-portfolio-card-active: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+$shadow-subscription-input: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+//     Transition properties
+
+$timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+$transition-duration: 250ms;
+$transition-duration-modal: 500ms;

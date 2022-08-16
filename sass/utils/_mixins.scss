@@ -1,0 +1,24 @@
+@mixin transition($property) {
+  transition: $property $transition-duration $timing-function;
+}
+
+@mixin transition-2($property1, $property2) {
+  transition: #{$property1} #{$transition-duration} #{$timing-function}, #{$property2} #{$transition-duration} #{$timing-function};
+}
+
+@mixin transition-3($property1, $property2, $property3) {
+  transition: #{$property1} #{$transition-duration} #{$timing-function}, #{$property2} #{$transition-duration} #{$timing-function},
+    #{$property3} #{$transition-duration} #{$timing-function};
+}
+
+@mixin transition-fast($property) {
+  transition: #{$property} #{$transition-duration-modal} #{$timing-function};
+}
+
+@mixin transition-fast-2($property1, $property2) {
+  transition: #{$property1} #{$transition-duration-modal} #{$timing-function}, #{$property2} #{$transition-duration-modal} #{$timing-function};
+}
+
+@mixin flex-basis($item, $indent) {
+  flex-basis: calc((100% - #{$indent} * (#{$item} - 1)) / #{$item});
+}
