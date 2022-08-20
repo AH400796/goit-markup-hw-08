@@ -47,6 +47,10 @@
 
   @include transition-fast(transform);
 
+  @media screen and (max-width: 999px) and (orientation: landscape) {
+    top: 90%;
+  }
+
   @media screen and (min-width: 480px) {
     width: 100%;
     max-width: 450px;
